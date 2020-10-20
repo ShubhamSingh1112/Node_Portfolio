@@ -1,0 +1,37 @@
+body {
+		background-position: absolute;
+		background-size: contain;
+		background-color: lightgrey;
+		padding: 0px;
+		margin: 0px;
+	}
+
+	ul {
+		list-style-type: none;
+		margin: 0px;
+		padding: 0px;
+		background-color: dodgerblue;
+		font-size: 20px;
+		font-family: sans-serif;
+	}
+
+	li {
+		display: inline-block;
+		padding: 10px;
+	}
+
+	a {
+		color: white;
+		text-decoration: none;
+	}
+
+	li:hover {
+		background-color: darkgrey;
+		transition: ease-in-out 0.4;
+	}
+
+	.my-profile {
+		font-family: cursive;
+		font: bold;
+		font-size: 22px;
+	}
